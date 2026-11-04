@@ -16,7 +16,4 @@ print("Doubled quantity:", doubled, type(doubled))
 # class is a Python keyword, so it cannot be a variable name.
 
 # Rebinding doubled does not change quantity
-# because they are separate variable bindings.
-
-                     
-                     
+# because they are separate variable bindings.             

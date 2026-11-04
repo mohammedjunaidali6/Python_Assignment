@@ -15,12 +15,3 @@ assert pair == (2,5)
 
 print ("Original tuple:", pair)
 print ("New tuple:", result)
-
-
-
-
-
-
-
-
-    
