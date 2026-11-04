@@ -1,3 +1,6 @@
+# Define Student(name) storing name per instance and greet() returning "Hello, <name>". 
+# Create Ana and Bo and assert their greetings remain independent.
+
 class Student:
     def __init__(self, name):
         self.name = name

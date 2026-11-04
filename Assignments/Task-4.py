@@ -1,3 +1,8 @@
+# Define Note(text) with an instance text attribute and load_note(path) 
+# that reads UTF-8 text inside a with block then returns a Note. A file contains hello. 
+# Verify returned text and independent notes for two files.
+
+
 class Note:
     def __init__(self, text):
         self.text = text

@@ -1,3 +1,7 @@
+# Define transform_pair(pair,fn) returning a tuple of the transformed two elements. 
+# Use lambda x:x+1 on (2,5), expecting (3,6), and assert the original pair is unchanged.
+
+
 def transform_pair(pair,fn):
     return (fn(pair[0]), fn(pair[1]))
 
